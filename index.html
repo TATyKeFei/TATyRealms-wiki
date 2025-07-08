@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CE wiki</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+
+  <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'TATyRealms Wiki',
+      repo: 'https://github.com/TATyKeFei/tatyrealms-wiki',
+      homepage: "README.md",
+      //relativePath: true,
+      notFoundPage: "404.md",
+      loadSidebar: true,
+      subMaxLevel: 2,
+      sidebarDisplayLevel: 0,
+      auto2top: true,
+      loadNavbar: true,
+      //logo: "logo.png",
+      formatUpdated: "该页面上次编辑时间<br> {YYYY}年 {MM}月{DD}日 {HH}:{mm}:{ss}"
+    }
+  </script>
+
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!--TAB-->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1">
+    window.$docsify = {
+      tabs: {
+        persist: true, // default
+        sync: true, // default
+        theme: 'classic', // default
+        tabComments: true, // default
+        tabHeadings: true // default
+      }
+    };
+  </script>
+
+  <!--文本高亮-->
+  <script src="./plugins/text_tips.js">
+    window.$docsify = {
+      'flexible-alerts': {
+        style: 'flat'
+      }
+    };
+  </script>
+
+  <!--字数统计-->
+  <script src="./plugins/countable.min.js"></script>
+
+  <!--下一章节-->
+  <script src="./plugins/next-pre.js"></script>
+
+  <!-- 侧边栏目录折叠 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
+  <!--返回顶部-->
+  <script src="./plugins/scroll-to-top.js"></script>
+
+  <!-- 页脚 -->
+  <script src="./plugins/footer.js"></script>
+
+
+</body>
+
+</html>
