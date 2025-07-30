@@ -3,6 +3,6 @@
 
 * 物品
    - [原版物品]
-      - [末影之眼](docs/vanilla/ender_eye/READMD.md)
+      - [末影之眼](docs/items/vanilla/ender_eye/READMD.md)
    - [武器类]
-      - [回旋镖](docs/weapon/boomerang/README.md)
+      - [回旋镖](docs/items/weapon/boomerang/README.md)
